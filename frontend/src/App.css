@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root, #app {
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#boardTable {
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid black;
+}
+
+button {
+    margin-left: 10px
+}
+
+div > textarea {
+    width: 170px;
+    height: 100px;
+}
